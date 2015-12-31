@@ -257,6 +257,7 @@ class Feed extends \Magento\AdminNotification\Model\Feed
      */
     public function getFeedData($urlParams = array())
     {
+    	return;
         $curl = $this->curlFactory->create();
         $curl->setConfig(array(
             'timeout'   => 2
